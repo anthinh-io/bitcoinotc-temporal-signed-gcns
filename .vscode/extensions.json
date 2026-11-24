@@ -2,9 +2,11 @@
   "recommendations": [
     "editorconfig.editorconfig",
     "esbenp.prettier-vscode",
-    "ms-azuretools.vscode-containers",
-    "ms-python.python",
+    "charliermarsh.ruff",
+    "google.colab",
     "ms-toolsai.jupyter",
+    "ms-python.python",
+    "ms-azuretools.vscode-containers",
     "ms-vscode-remote.remote-containers"
   ]
 }
