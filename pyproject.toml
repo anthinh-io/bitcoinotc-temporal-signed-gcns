@@ -1,0 +1,13 @@
+[project]
+name = "bitcoinotc-temporal-signed-gcns"
+version = "0.1.0"
+description = "Attention-based temporal signed GCN for anomaly detection on the dynamic Bitcoin-OTC trust graph (PyTorch Geometric)."
+readme = "README.md"
+authors = [
+    { name = "Thanh Thinh Nguyen", email = "22730096@ms.uit.edu.vn" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[tool.ruff]
+line-length = 100
