@@ -108,7 +108,7 @@ Ticket: #17 (map #16). Ngày tra cứu: 2026-11-28.
   | "as many as 46% of all Paxful vendors in our corpus who posted ads are suspended (24 562 users out of 53 224 until March 1, 2023)" (§3.2) | "có tới 46% vendor Paxful từng đăng quảng cáo trong dữ liệu bị khóa (24.562/53.224 người tính đến 01/3/2023)" |
   | "Only 16.26% of the feedback from non-suspended accounts is directed towards suspended accounts, whereas 24.82% of the feedback from suspended accounts goes to other suspended accounts." (§4.2) | "Chỉ 16,26% phản hồi từ tài khoản không bị khóa hướng tới tài khoản bị khóa, trong khi 24,82% phản hồi từ tài khoản bị khóa hướng tới các tài khoản bị khóa khác." |
 
-- **Độ tin cậy.** Bài peer-review tại hội nghị hạng A* (The Web Conference).
+- **Độ tin cậy.** Bài peer-review tại The Web Conference (WWW).
   - Nhãn của nghiên cứu là "bị nền tảng khóa tài khoản", không phải "đã xác minh là lừa đảo".
   - Dữ liệu năm 2022–2023, trên các nền tảng P2P có ký quỹ (escrow), khác với Bitcoin-OTC (IRC, không có ký quỹ).
   - **[suy luận]** Các hình thức thao túng nêu trong bài (tự đánh bóng, nói xấu, Sybil) tương ứng với hai kiểu bất thường mà khóa luận quan tâm trên đồ thị đánh giá có dấu.
@@ -194,7 +194,7 @@ Ticket: #17 (map #16). Ngày tra cứu: 2026-11-28.
   - Mục "Notes about gettrust" mô tả cách tính "level 2 trust": lấy min của hai chặng, và chặng đầu âm thì cho 0. Đây là một cơ chế lan truyền tin cậy có dấu có từ trước, có thể nhắc khi giới thiệu bài toán.
 - **[suy luận] Ba liên hệ với các ticket trước:**
   1. Quy tắc "một cặp chỉ có một điểm, chấm lại thì ghi đè" giải thích phát hiện ở #5 rằng không có cặp nào được chấm hai lần. Hệ quả: timestamp trong SNAP **có thể** là thời điểm cập nhật cuối, không phải lần chấm đầu. Wiki và SNAP đều không xác nhận điều này, nên chỉ ghi như một lưu ý về dữ liệu.
-  2. Wiki chỉ định `nanotube` làm gốc tin cậy, với ngưỡng ≥ 8. REV2 (b4) dùng ngưỡng ≥ 0,5 sau khi chuẩn hóa, tức ≥ 5. Điều này ủng hộ về mặt khái niệm cách dựng nhãn bắt đầu từ người sáng lập, nhưng **không xác minh** giả định "người sáng lập = node 1" của #11, vì SNAP đã ẩn danh hóa ID.
+  2. Wiki chỉ định `nanotube` làm gốc tin cậy, với ngưỡng ≥ 8 (wiki không gọi nanotube là người sáng lập). REV2 (b4) dùng ngưỡng ≥ 0,5 sau khi chuẩn hóa, tức ≥ 5. Điều này ủng hộ về mặt khái niệm cách dựng nhãn bắt đầu từ người sáng lập, nhưng **không xác minh** giả định "người sáng lập = node 1" của #11, vì SNAP đã ẩn danh hóa ID.
   3. Hướng dẫn chấm −10 cho "fraudster" là căn cứ để diễn giải cạnh −10. #5 cho biết −10 chiếm 68% số cạnh âm.
 
 ### b3. Kumar et al., ICDM 2016: lý do bộ dữ liệu tồn tại (ẩn danh dẫn tới rủi ro đối tác)
@@ -263,7 +263,7 @@ Ticket: #17 (map #16). Ngày tra cứu: 2026-11-28.
 - **Độ tin cậy.**
   - Đây là bài khảo sát, không phải đề xuất mô hình.
   - Bài đăng tạp chí có thẩm định (chưa kiểm tra chỉ mục và chất lượng thẩm định của tạp chí). Nên trích như một tổng quan, không dùng làm căn cứ kỹ thuật.
-  - Bài có bàn về đồ thị động. Khi dò từ khóa trên bản HTML, **không thấy** nhắc tới đồ thị có dấu hay Bitcoin-OTC.
+  - Bài có bàn về đồ thị động. Khi dò từ khóa trên toàn bộ bản HTML (`bitcoin`, `bitcoin-otc`, `elliptic`, `signed graph/network`, `epinions`, `slashdot`), **không có kết quả nào**.
 
 **c1.2. GNN trên dữ liệu Elliptic (Bitcoin) cho chống rửa tiền (RMIT Hà Nội, ĐHQGHN)**
 
@@ -286,7 +286,7 @@ Ticket: #17 (map #16). Ngày tra cứu: 2026-11-28.
   - phát hiện người chấm điểm gian lận trên mạng đánh giá tin cậy.
 - **Không tìm thấy** bài trên tạp chí khoa học trong nước về phát hiện gian lận giao dịch tiền mã hóa bằng học máy. Các kết quả tìm được trên vjol.info.vn chỉ gồm:
   - bài pháp lý hoặc chính sách về tiền ảo;
-  - bài phát hiện gian lận thẻ tín dụng (TNU Journal of Science and Technology), không phải dữ liệu blockchain.
+  - bài phát hiện gian lận thẻ tín dụng (TNU Journal of Science and Technology), không phải dữ liệu blockchain (chỉ thấy trong kết quả tìm kiếm, chưa mở).
 - **Đã tìm.** WebSearch (tiếng Việt và tiếng Anh), với các từ khóa:
   - "phát hiện bất thường đồ thị", "mạng nơ-ron đồ thị", "phát hiện gian lận giao dịch tiền mã hóa";
   - "Vietnam National University / Hanoi / Ho Chi Minh City" kết hợp "graph neural network", "Elliptic", "Ethereum phishing/Ponzi";
@@ -434,7 +434,7 @@ Ticket: #17 (map #16). Ngày tra cứu: 2026-11-28.
   | "about 78% were recommended by Yelp's automated recommendation software [...] Additionally, 18% were not recommended, 3% were removed by Yelp's User Operations team" | "khoảng 78% được phần mềm đề xuất tự động của Yelp đề xuất [...] 18% không được đề xuất, 3% bị đội User Operations gỡ bỏ" |
   | "Over 1,300 user accounts were closed for being associated with review exchange rings or other suspicious review activity." | "Hơn 1.300 tài khoản bị đóng vì liên quan tới vòng trao đổi đánh giá hoặc hoạt động đánh giá đáng ngờ khác." |
 
-- **Độ tin cậy.** Đây là báo cáo tự công bố của doanh nghiệp, số liệu tại Mỹ.
+- **Độ tin cậy.** Đây là báo cáo tự công bố của doanh nghiệp.
   - "Không đề xuất" không đồng nghĩa với "giả mạo".
 
 ### d5. FRAUDAR: phát hiện nhóm mua follower trên đồ thị Twitter 1,47 tỷ cạnh
